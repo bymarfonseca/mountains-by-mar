@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains by Mar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color: white">
+                    <img src="./img/68292.png" alt="iconomontaña" id="logo-navbar" class="d-inline-block align-text-top">
+                    Mountains by Mar
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: rgb(240, 252, 254)">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" style="color:rgb(240, 252, 254)">Mis cerros favoritos</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(240, 252, 254)">Mis grupos de senderismo</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(240, 252, 254)">Fotos</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(240, 252, 254)">Tipos de escalada</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    
+    <!--Bienvenida-->
+    <div class="container d-flex">
+        <div class="row g-4">
+            <div class="col-12 col-xl-3 mb-4">
+                <h1 class="display-5">Bienvenidx!</h1>
+            </div>
+            <div class="col-12 col-xl-9 mb-4">
+                <p class="fs-6 text-start lh-base">¡Hola soy Mar! Tengo 21 años y soy estudiante de la carrera Ingeniería en Tecnología de Software en la Facultad de Ingeniería Mecánica y Eléctrica.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="fs-6 text-start lh-base">Desde que tengo memoria siempre me ha gustado la tecnología y estar en contacto con la naturaleza. A partir de mis ocho años empecé a subir cerros con mi familia, cosa que hizo que me enamorara de este tipo de deportes convirtiéndose en una de mis mayores pasiones.</p>
+        
+        <p class="fs-6 text-start lh-base"> Además, hace un par de años conocí la escalada en montaña y actualmente es una de las cosas que más amo en el mundo.</p>
+    </div>
+
+    <!--Collapse-->
+    <div class="container d-flex justify-content-center my-4">
+        <div class="row text-center">
+            <p class="h5">Estos son algunos de mis cerros favoritos:</p>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <button class="btn btn-custom w-100" type="button" data-bs-toggle="collapse" data-bs-target="#lahuasteca" aria-expanded="false" aria-controls="lahuasteca">La Huasteca</button>
+                    <div class="collapse" id="lahuasteca">
+                        <div class="card card-body">
+                            La Huasteca Monterrey es un parque ecológico ubicado en el municipio de Santa Catarina, Nuevo León, y parte del Parque Nacional Cumbres de Monterrey, conocido por sus formaciones rocosas, llanuras y cañones ideales para actividades al aire libre como senderismo, escalada, ciclismo y exploración de glifos prehistóricos.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <button class="btn btn-custom w-100" type="button" data-bs-toggle="collapse" data-bs-target="#cerrodelasmitras" aria-expanded="false" aria-controls="cerrodelasmitras">Cerro de las Mitras</button>
+                    <div class="collapse" id="cerrodelasmitras">
+                        <div class="card card-body">
+                            El Cerro de las Mitras es una montaña emblemática ubicada en Monterrey, Nuevo León, México, que forma parte de la Sierra Madre Oriental y se caracteriza por la forma de su cresta que recuerda las mitras episcopales. Es una Reserva Natural Estatal popular para el senderismo y la escalada.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <button class="btn btn-custom w-100" type="button" data-bs-toggle="collapse" data-bs-target="#cerrodelasilla" aria-expanded="false" aria-controls="cerrodelasilla">Cerro de la Silla</button>
+                    <div class="collapse" id="cerrodelasilla">
+                        <div class="card card-body">
+                            El Cerro de la Silla es una emblemática montaña de Monterrey, Nuevo León, conocida por su forma similar a una silla de montar y declarada Monumento Natural en 1991. Es un icono representativo de la ciudad y el estado, con una altura de 1,575 metros, que se extiende por los municipios de Monterrey, Guadalupe y Juárez. 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Popovers-->
+    <div class="container my-4">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <p class="h5">Mis grupos de senderismo:</p>
+                <p class="fs-6 text-start lh-base">
+                    Pertenezco al grupo de <button type="button" class="btn btn-custom2 mb-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Grupo de Montañismo de la Facultad de Ingeniería Mecánica y Eléctrica."><strong>Excursionismo Fime</strong></button> y <button type="button" class="btn btn-custom2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Grupo de Senderismo para la comunidad LGBTQ+ en Nuevo León."><strong>Senderismo LGBTQ+ Nuevo León</strong></button> y juntos hemos realizado numerosas excursiones, campamentos y actividades.</p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <img src="./img/IMG_9657.jpg"  alt="grupo senderismo" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+
+    <!--Carousel-->
+    <div class="container">
+        <div class="row">
+            <p class="fs-6 text-start lh-base">Estas son imágenes de algunas de mis excursiones favoritas: </p>
+        </div>
+        <div class="mx-auto">
+            <div id="carousel-mar" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-mar" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#carousel-mar" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                    <button type="button" data-bs-target="#carousel-mar" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                    <button type="button" data-bs-target="#carousel-mar" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/IMG_4280.jpg" class="d-block w-100" alt="el cielito">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/IMG_4667.jpg" class="d-block w-100" alt="el chupón">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/IMG_6481.jpg" class="d-block w-100" alt="mirador valle">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/IMG_8321.jpg" class="d-block w-100" alt="cerro agujerado">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-mar" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-mar" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--Cards-->
+    <div class="container">
+        <p class="h5">Tipos de escalada</p>
+        <p class="fs-6 text-start lh-base">Existen muchos tipos de escalada, como los siguientes:</p>
+
+        <div class="row g-4">
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./img/ongravity-2.jpg" class="card-img-top" alt="boulder">
+                    <div class="card-body">
+                        <h5 class="card-title">Escalada en Boulder</h5>
+                        <p class="card-text">Se trata de escalar bloques de roca o pequeñas paredes (de 1,5 a 15 metros de altura) sin la utilización de materiales de protección convencionales de escalada (cuerda, arnés, elementos de fijación, etc.). El escalador se mueve tanto en ascenso como en movimientos horizontales con una dificultad extrema durante trayectos muy cortos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./img/070225_3_2_J.jpg" class="card-img-top" alt="libre" style="object-fit: cover; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Escalada Libre</h5>
+                        <p class="card-text">La escalada libre (o free climbing) es el tipo de escalada en donde se utiliza una cuerda por seguridad pero no como ayuda para escalar, por lo que no se tira de ella y ni siquiera se cuelga de ella para soportar el peso.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./img/download.png" class="card-img-top" alt="largos" style="object-fit: cover; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Escalada de Varios Largos</h5>
+                        <p class="card-text">Consiste en hacer más de una ruta a la vez en donde una vez que se acaba la cuerda se vuelve a atar otra para subir a la siguiente parte de la montaña. Esto permite realizar rutas más largas y ascender paredes más grandes. Puede llegar a durar varios días por lo que implica dormir incluso colgados en la propia pared.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./img/Chamonix_2018_Jan_Kriz.jpg" class="card-img-top" alt="speedclimbing" style="object-fit: cover; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Escalada de Velocidad</h5>
+                        <p class="card-text">En este tipo de escalada se enfoca en una competencia con cada concursante asegurado desde arriba en top-rope. Siempre se escala la misma vía que mide 15 metros de altura con una dificultad 6b. Lo importante es llegar a final de la ruta en el menor tiempo. El récord mundial actualmente es de 4.74 segundos por el americano Sam Watson.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+        })
+    </script>
+</body>
+</html>
