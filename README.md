@@ -19,13 +19,6 @@ The page includes:
 - **JavaScript** (for Bootstrap components like popovers and carousel)  
 
 
-## 📂 Project Structure
-mountains-by-mar/
-│── index.html       # Main page
-│── style.css        # Custom styles
-│── img/             # Images used in the project
-
-
 ## 💡 What I Learned
 - How to use **Bootstrap components** like navbar, carousel, and collapse.  
 - How to organize a responsive layout with **containers, rows, and columns**.  
