@@ -30,3 +30,7 @@ mountains-by-mar/
 - How to use **Bootstrap components** like navbar, carousel, and collapse.  
 - How to organize a responsive layout with **containers, rows, and columns**.  
 - How to combine personal interests with **web development practice**.  
+
+## 🚀 Live Demo
+Hosted on GitHub Pages, you can visit the site here:  
+👉 [Mountains by Mar](https://bymarfonseca.github.io/mountains-by-mar/) 
