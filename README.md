@@ -1,4 +1,4 @@
-# 🌄 Mountains by Mar
+# 🏔️ Mountains by Mar
 
 This is a personal webpage project built to showcase my passion for **mountains, hiking, and climbing**, while also practicing **HTML, CSS, and Bootstrap**.  
 
